@@ -19,7 +19,7 @@ FROM `superstore_raw`;
 SELECT * FROM customers LIMIT 5 ;
 
 CREATE TABLE IF NOT EXISTS orders ( 
-`Row ID` INT PRIMARY KEY,
+`Row_ID` INT PRIMARY KEY,
 Order_ID VARCHAR(50),
 Order_Date DATE,
 Ship_Date DATE,
@@ -36,7 +36,7 @@ Quantity INT,
 Discount DECIMAL(4, 2),
 Profit DECIMAL(10, 2)
 ) ;
-INSERT IGNORE INTO orders (`Row ID`, Order_ID, Order_Date, Ship_Date, Ship_Mode, Customer_ID, Country, City, State, Postal_Code, Region, Product_ID, Sales, Quantity, Discount, Profit)
+INSERT IGNORE INTO orders (`Row_ID`, Order_ID, Order_Date, Ship_Date, Ship_Mode, Customer_ID, Country, City, State, Postal_Code, Region, Product_ID, Sales, Quantity, Discount, Profit)
 SELECT DISTINCT 
     `Row ID`, 
     `Order ID`, 
@@ -66,13 +66,12 @@ CREATE TABLE IF NOT EXISTS products (
 );
 INSERT IGNORE INTO products ( Row_ID, Product_ID, Category, Sub_Category, Product_Name )
 SELECT DISTINCT
-`Row ID`,
-`Product ID`,
-`Category`,
-`Sub-Category`,
-`Product Name`
+	`Row ID`,
+	`Product ID`,
+	`Category`,
+	`Sub-Category`,
+	`Product Name`
 FROM superstore_raw ;
 SELECT * FROM products LIMIT 5 ;
 
 
- 
