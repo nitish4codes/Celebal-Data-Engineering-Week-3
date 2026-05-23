@@ -1,0 +1,6 @@
+Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Country,City,State,Postal_Code,Region,Product_ID,Sales,Quantity,Discount,Profit
+1,CA-2016-152156,2016-11-08,2016-11-11,"Second Class",CG-12520,"United States",Henderson,Kentucky,42420,South,FUR-BO-10001798,261.96,2,0.00,41.91
+2,CA-2016-152156,2016-11-08,2016-11-11,"Second Class",CG-12520,"United States",Henderson,Kentucky,42420,South,FUR-CH-10000454,731.94,3,0.00,219.58
+3,CA-2016-138688,2016-06-12,2016-06-16,"Second Class",DV-13045,"United States","Los Angeles",California,90036,West,OFF-LA-10000240,14.62,2,0.00,6.87
+4,US-2015-108966,2015-10-11,2015-10-18,"Standard Class",SO-20335,"United States","Fort Lauderdale",Florida,33311,South,FUR-TA-10000577,957.58,5,0.45,-383.03
+5,US-2015-108966,2015-10-11,2015-10-18,"Standard Class",SO-20335,"United States","Fort Lauderdale",Florida,33311,South,OFF-ST-10000760,22.37,2,0.20,2.52
