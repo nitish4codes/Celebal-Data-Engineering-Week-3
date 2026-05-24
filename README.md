@@ -1,5 +1,9 @@
 # Superstore Sales Data Analysis
 
+**Developer:** Nitish Bhardwaj  
+**Tech Stack:** MySQL Workbench, VS Code, Git Bash  
+**LMS Task:** Use Subqueries, CTEs, and Window Functions to analyze sales data from the Superstore dataset.
+
 ## Project Objective
 This project implements a modular SQL analytics pipeline using advanced relational database techniques—including **Subqueries, Common Table Expressions (CTEs), and Window Functions**—to transform raw transactional data into structured, business-ready insights.
 
